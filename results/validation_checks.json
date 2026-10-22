@@ -1,0 +1,25 @@
+{
+  "config": {
+    "kpr": 1.5,
+    "t_ar": 2.4,
+    "delay": 0.4,
+    "step_time": 1.0,
+    "dt": 0.001,
+    "t_end": 10.0
+  },
+  "delay_steps": 400,
+  "open_loop_first_nonzero_output_time": 1.401,
+  "expected_first_nonzero_output_time": 1.4,
+  "open_loop_final_output": 0.9982325843807919,
+  "expected_open_loop_final_output": 1.0,
+  "limited_input_upper_bound": 3.0,
+  "limited_max_inputs": {
+    "1": 0.6666666666666666,
+    "3": 2.0,
+    "10": 3.0,
+    "30": 3.0
+  },
+  "pass_delay_timing_within_dt": true,
+  "pass_limited_input": true,
+  "pass_open_loop_final_within_1pct": true
+}
